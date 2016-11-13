@@ -1,6 +1,6 @@
 android {
-    buildToolsVersion "23.0.3"
-    compileSdkVersion 23
+    buildToolsVersion "25"
+    compileSdkVersion 25
     sourceSets {
         main {
             manifest.srcFile 'AndroidManifest.xml'
@@ -16,8 +16,8 @@ android {
     }
     defaultConfig {
         applicationId "de.nitri.frogger"
-        minSdkVersion 8
-        targetSdkVersion 23
+        minSdkVersion 16
+        targetSdkVersion 25
     }
 }
 

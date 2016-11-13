@@ -11,8 +11,8 @@ public class ImageCache {
 	public static TextureAtlas atlas;
 	
 	public static void load () {
-		String textureFile = "data/frogger.txt";
-		atlas = new TextureAtlas(Gdx.files.internal(textureFile), Gdx.files.internal("data"));
+		String textureFile = "images/frogger.atlas";
+		atlas = new TextureAtlas(Gdx.files.internal(textureFile), Gdx.files.internal("images"));
 	}
 	
 	public static TextureRegion getTexture (String name) {

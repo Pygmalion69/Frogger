@@ -22,11 +22,11 @@ public class MenuScreen extends Screen {
 		
 		if (elements.size() == 0) {
 			
-			GameSprite logo = new GameSprite ("logo", _game, _game.screenWidth * 0.5f,  _game.screenHeight * 0.7f);
+			GameSprite logo = new GameSprite ("logo", _game, _game.screenWidth * 0.5f,  _game.screenHeight * 0.9f);
 			GameSprite label1 = new GameSprite ("label_how_to", _game, _game.screenWidth * 0.5f,  _game.screenHeight * 0.53f);
-			GameSprite label2 = new GameSprite ("label_instructions", _game, _game.screenWidth * 0.5f,  _game.screenHeight * 0.2f);
-			GameSprite label3 = new GameSprite ("label_tap", _game, _game.screenWidth * 0.5f,  _game.screenHeight * 0.02f);
-			GameSprite control = new GameSprite ("control", _game, _game.screenWidth * 0.5f,  _game.screenHeight * 0.4f);
+			GameSprite label2 = new GameSprite ("label_instructions", _game, _game.screenWidth * 0.5f,  _game.screenHeight * 0.45f);
+			GameSprite label3 = new GameSprite ("label_tap", _game, _game.screenWidth * 0.5f,  _game.screenHeight * 0.25f);
+			GameSprite control = new GameSprite ("frogger_frog", _game, _game.screenWidth * 0.5f,  _game.screenHeight * 0.7f);
 			
 			
 			/*
@@ -57,12 +57,12 @@ public class MenuScreen extends Screen {
 		
 		
 		if (Gdx.input.justTouched()) {
-			Gdx.app.log("A HIT!", "A MOST PALPABLE HIT");
+			//Gdx.app.log("A HIT!", "A MOST PALPABLE HIT");
 			_game.setScreen("GameScreen");
 		
 		} else {
 			GL20 gl = Gdx.gl;
-			gl.glClearColor(0.4f, 0.4f, 0.4f, 1);
+			gl.glClearColor(0.0f, 0.0f, 0.239f, 1);
 			gl.glClear(GL20.GL_COLOR_BUFFER_BIT);
 			
 			_game.camera.update();

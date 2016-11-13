@@ -18,6 +18,8 @@ public class GameData {
     public float tierSpeed1 = 1.0f;
     public float tierSpeed2 = 1.0f;
 
+    public boolean sound = false;
+
     public GameData(Game game) {
         gameMode = Game.GAME_STATE_PAUSE;
     }
