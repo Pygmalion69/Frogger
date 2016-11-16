@@ -7,6 +7,7 @@ import java.util.TimerTask;
 
 import com.badlogic.gdx.Gdx;
 
+import com.badlogic.gdx.Input;
 import com.badlogic.gdx.graphics.GL20;
 import com.badlogic.gdx.math.Rectangle;
 import com.badlogic.gdx.math.Vector3;
@@ -168,11 +169,11 @@ public class GameScreen extends Screen {
                         if (Math.abs(deltaX) < _player.width * 0.5) deltaX = 0;
                         if (Math.abs(deltaY) < _player.height * 0.5) deltaY = 0;
 
-                        if (deltaX > 0 && Math.abs(deltaX) > Math.abs(deltaY)) {
-                            _player.moveFrogRight();
-                        }
                         if (deltaX < 0 && Math.abs(deltaX) > Math.abs(deltaY)) {
                             _player.moveFrogLeft();
+                        }
+                        if (deltaX > 0 && Math.abs(deltaX) > Math.abs(deltaY)) {
+                            _player.moveFrogRight();
                         }
                         if (deltaY > 0 && Math.abs(deltaY) > Math.abs(deltaX)) {
                             _player.moveFrogUp();
@@ -183,6 +184,22 @@ public class GameScreen extends Screen {
                         //	}
                     }
                 }
+            }
+        }
+
+        // key input
+        if (!_player.moving && _player.visible && _game.gameData.gameMode == Game.GAME_STATE_PLAY) {
+            if (Gdx.input.isKeyPressed(Input.Keys.LEFT)) {
+                _player.moveFrogLeft();
+            }
+            if (Gdx.input.isKeyPressed(Input.Keys.RIGHT)) {
+                _player.moveFrogRight();
+            }
+            if (Gdx.input.isKeyPressed(Input.Keys.UP)) {
+                _player.moveFrogUp();
+            }
+            if (Gdx.input.isKeyPressed(Input.Keys.DOWN)) {
+                _player.moveFrogDown();
             }
         }
 
