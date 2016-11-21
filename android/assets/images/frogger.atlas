@@ -1,0 +1,538 @@
+
+frogger.png
+size: 642,486
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+alligator
+  rotate: false
+  xy: 322, 99
+  size: 22, 29
+  orig: 22, 29
+  offset: 0, 0
+  index: -1
+bg
+  rotate: false
+  xy: 0, 6
+  size: 320, 480
+  orig: 320, 480
+  offset: 0, 0
+  index: -1
+car_
+  rotate: false
+  xy: 322, 130
+  size: 39, 18
+  orig: 39, 18
+  offset: 0, 0
+  index: 5
+car_
+  rotate: false
+  xy: 363, 144
+  size: 23, 25
+  orig: 23, 25
+  offset: 0, 0
+  index: 1
+car_
+  rotate: false
+  xy: 322, 72
+  size: 23, 25
+  orig: 23, 25
+  offset: 0, 0
+  index: 2
+car_
+  rotate: false
+  xy: 391, 240
+  size: 21, 22
+  orig: 21, 22
+  offset: 0, 0
+  index: 3
+car_
+  rotate: false
+  xy: 549, 403
+  size: 22, 19
+  orig: 22, 19
+  offset: 0, 0
+  index: 4
+croc_
+  rotate: false
+  xy: 322, 233
+  size: 67, 29
+  orig: 67, 29
+  offset: 0, 0
+  index: 1
+croc_
+  rotate: false
+  xy: 322, 202
+  size: 67, 29
+  orig: 67, 29
+  offset: 0, 0
+  index: 2
+death_
+  rotate: false
+  xy: 346, 106
+  size: 17, 22
+  orig: 17, 22
+  offset: 0, 0
+  index: 1
+death_
+  rotate: false
+  xy: 621, 400
+  size: 17, 22
+  orig: 17, 22
+  offset: 0, 0
+  index: 2
+death_
+  rotate: false
+  xy: 347, 82
+  size: 17, 22
+  orig: 17, 22
+  offset: 0, 0
+  index: 3
+death_
+  rotate: false
+  xy: 365, 108
+  size: 17, 22
+  orig: 17, 22
+  offset: 0, 0
+  index: 4
+fly
+  rotate: false
+  xy: 451, 365
+  size: 17, 16
+  orig: 17, 16
+  offset: 0, 0
+  index: -1
+frog_bonus_side
+  rotate: false
+  xy: 366, 85
+  size: 16, 21
+  orig: 16, 21
+  offset: 0, 0
+  index: -1
+frog_bonus_stand
+  rotate: false
+  xy: 433, 360
+  size: 16, 21
+  orig: 16, 21
+  offset: 0, 0
+  index: -1
+frog_jump
+  rotate: false
+  xy: 322, 48
+  size: 22, 22
+  orig: 22, 22
+  offset: 0, 0
+  index: -1
+frog_side
+  rotate: false
+  xy: 322, 24
+  size: 22, 22
+  orig: 22, 22
+  offset: 0, 0
+  index: -1
+frog_side_jump
+  rotate: false
+  xy: 322, 0
+  size: 22, 22
+  orig: 22, 22
+  offset: 0, 0
+  index: -1
+frog_stand
+  rotate: false
+  xy: 391, 216
+  size: 22, 22
+  orig: 22, 22
+  offset: 0, 0
+  index: -1
+frog_target
+  rotate: false
+  xy: 363, 171
+  size: 23, 29
+  orig: 23, 29
+  offset: 0, 0
+  index: -1
+frogger_frog
+  rotate: false
+  xy: 322, 150
+  size: 39, 50
+  orig: 39, 50
+  offset: 0, 0
+  index: -1
+game_over_box
+  rotate: false
+  xy: 322, 319
+  size: 86, 16
+  orig: 86, 16
+  offset: 0, 0
+  index: -1
+grass
+  rotate: false
+  xy: 322, 444
+  size: 320, 42
+  orig: 320, 42
+  offset: 0, 0
+  index: -1
+label_
+  rotate: false
+  xy: 363, 132
+  size: 20, 10
+  orig: 20, 10
+  offset: 0, 0
+  index: 200
+label_
+  rotate: false
+  xy: 470, 371
+  size: 20, 10
+  orig: 20, 10
+  offset: 0, 0
+  index: 400
+label_click
+  rotate: false
+  xy: 322, 363
+  size: 109, 11
+  orig: 109, 11
+  offset: 0, 0
+  index: -1
+label_how_to
+  rotate: false
+  xy: 322, 337
+  size: 97, 11
+  orig: 97, 11
+  offset: 0, 0
+  index: -1
+label_instructions
+  rotate: false
+  xy: 322, 376
+  size: 108, 25
+  orig: 108, 25
+  offset: 0, 0
+  index: -1
+label_tap
+  rotate: false
+  xy: 322, 350
+  size: 98, 11
+  orig: 98, 11
+  offset: 0, 0
+  index: -1
+label_time
+  rotate: false
+  xy: 510, 409
+  size: 37, 13
+  orig: 37, 13
+  offset: 0, 0
+  index: -1
+log_large
+  rotate: false
+  xy: 510, 424
+  size: 129, 18
+  orig: 129, 18
+  offset: 0, 0
+  index: -1
+log_medium
+  rotate: false
+  xy: 322, 299
+  size: 84, 18
+  orig: 84, 18
+  offset: 0, 0
+  index: -1
+log_small
+  rotate: false
+  xy: 432, 383
+  size: 60, 18
+  orig: 60, 18
+  offset: 0, 0
+  index: -1
+logo
+  rotate: false
+  xy: 322, 414
+  size: 186, 28
+  orig: 186, 28
+  offset: 0, 0
+  index: -1
+mute
+  rotate: false
+  xy: 573, 400
+  size: 22, 22
+  orig: 22, 22
+  offset: 0, 0
+  index: -1
+new_level_box
+  rotate: false
+  xy: 322, 264
+  size: 86, 15
+  orig: 86, 15
+  offset: 0, 0
+  index: -1
+number_level_
+  rotate: false
+  xy: 410, 319
+  size: 10, 16
+  orig: 10, 16
+  offset: 0, 0
+  index: -1
+number_level_
+  rotate: false
+  xy: 408, 301
+  size: 10, 16
+  orig: 10, 16
+  offset: 0, 0
+  index: 0
+number_level_
+  rotate: false
+  xy: 433, 342
+  size: 10, 16
+  orig: 10, 16
+  offset: 0, 0
+  index: 1
+number_level_
+  rotate: false
+  xy: 410, 283
+  size: 10, 16
+  orig: 10, 16
+  offset: 0, 0
+  index: 2
+number_level_
+  rotate: false
+  xy: 410, 265
+  size: 10, 16
+  orig: 10, 16
+  offset: 0, 0
+  index: 3
+number_level_
+  rotate: false
+  xy: 414, 247
+  size: 10, 16
+  orig: 10, 16
+  offset: 0, 0
+  index: 4
+number_level_
+  rotate: false
+  xy: 445, 342
+  size: 10, 16
+  orig: 10, 16
+  offset: 0, 0
+  index: 5
+number_level_
+  rotate: false
+  xy: 457, 347
+  size: 10, 16
+  orig: 10, 16
+  offset: 0, 0
+  index: 6
+number_level_
+  rotate: false
+  xy: 433, 324
+  size: 10, 16
+  orig: 10, 16
+  offset: 0, 0
+  index: 7
+number_level_
+  rotate: false
+  xy: 445, 324
+  size: 10, 16
+  orig: 10, 16
+  offset: 0, 0
+  index: 8
+number_level_
+  rotate: false
+  xy: 457, 329
+  size: 10, 16
+  orig: 10, 16
+  offset: 0, 0
+  index: 9
+number_score_
+  rotate: false
+  xy: 422, 345
+  size: 9, 16
+  orig: 9, 16
+  offset: 0, 0
+  index: -1
+number_score_
+  rotate: false
+  xy: 422, 327
+  size: 9, 16
+  orig: 9, 16
+  offset: 0, 0
+  index: 0
+number_score_
+  rotate: false
+  xy: 420, 301
+  size: 9, 16
+  orig: 9, 16
+  offset: 0, 0
+  index: 1
+number_score_
+  rotate: false
+  xy: 422, 283
+  size: 9, 16
+  orig: 9, 16
+  offset: 0, 0
+  index: 2
+number_score_
+  rotate: false
+  xy: 422, 265
+  size: 9, 16
+  orig: 9, 16
+  offset: 0, 0
+  index: 3
+number_score_
+  rotate: false
+  xy: 426, 247
+  size: 9, 16
+  orig: 9, 16
+  offset: 0, 0
+  index: 4
+number_score_
+  rotate: false
+  xy: 415, 229
+  size: 9, 16
+  orig: 9, 16
+  offset: 0, 0
+  index: 5
+number_score_
+  rotate: false
+  xy: 426, 229
+  size: 9, 16
+  orig: 9, 16
+  offset: 0, 0
+  index: 6
+number_score_
+  rotate: false
+  xy: 415, 211
+  size: 9, 16
+  orig: 9, 16
+  offset: 0, 0
+  index: 7
+number_score_
+  rotate: false
+  xy: 426, 211
+  size: 9, 16
+  orig: 9, 16
+  offset: 0, 0
+  index: 8
+number_score_
+  rotate: false
+  xy: 414, 193
+  size: 9, 16
+  orig: 9, 16
+  offset: 0, 0
+  index: 9
+number_time_
+  rotate: false
+  xy: 411, 181
+  size: 6, 10
+  orig: 6, 10
+  offset: 0, 0
+  index: -1
+number_time_
+  rotate: false
+  xy: 425, 199
+  size: 6, 10
+  orig: 6, 10
+  offset: 0, 0
+  index: 0
+number_time_
+  rotate: false
+  xy: 411, 169
+  size: 6, 10
+  orig: 6, 10
+  offset: 0, 0
+  index: 1
+number_time_
+  rotate: false
+  xy: 411, 157
+  size: 6, 10
+  orig: 6, 10
+  offset: 0, 0
+  index: 2
+number_time_
+  rotate: false
+  xy: 347, 70
+  size: 6, 10
+  orig: 6, 10
+  offset: 0, 0
+  index: 3
+number_time_
+  rotate: false
+  xy: 355, 70
+  size: 6, 10
+  orig: 6, 10
+  offset: 0, 0
+  index: 4
+number_time_
+  rotate: false
+  xy: 346, 58
+  size: 6, 10
+  orig: 6, 10
+  offset: 0, 0
+  index: 5
+number_time_
+  rotate: false
+  xy: 346, 46
+  size: 6, 10
+  orig: 6, 10
+  offset: 0, 0
+  index: 6
+number_time_
+  rotate: false
+  xy: 354, 58
+  size: 6, 10
+  orig: 6, 10
+  offset: 0, 0
+  index: 7
+number_time_
+  rotate: false
+  xy: 346, 34
+  size: 6, 10
+  orig: 6, 10
+  offset: 0, 0
+  index: 8
+number_time_
+  rotate: false
+  xy: 354, 46
+  size: 6, 10
+  orig: 6, 10
+  offset: 0, 0
+  index: 9
+sound
+  rotate: false
+  xy: 597, 400
+  size: 22, 22
+  orig: 22, 22
+  offset: 0, 0
+  index: -1
+time_bar
+  rotate: false
+  xy: 322, 403
+  size: 166, 9
+  orig: 166, 9
+  offset: 0, 0
+  index: -1
+time_box
+  rotate: false
+  xy: 322, 281
+  size: 86, 16
+  orig: 86, 16
+  offset: 0, 0
+  index: -1
+turtle_
+  rotate: false
+  xy: 391, 193
+  size: 21, 21
+  orig: 21, 21
+  offset: 0, 0
+  index: 1
+turtle_
+  rotate: false
+  xy: 388, 170
+  size: 21, 21
+  orig: 21, 21
+  offset: 0, 0
+  index: 2
+turtle_
+  rotate: false
+  xy: 388, 147
+  size: 21, 21
+  orig: 21, 21
+  offset: 0, 0
+  index: 3
