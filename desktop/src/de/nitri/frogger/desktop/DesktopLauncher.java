@@ -9,7 +9,7 @@ import de.nitri.frogger.FroggerGame;
 public class DesktopLauncher {
 	public static void main (String[] arg) {
 
-		boolean rebuildAtlas = true;
+		boolean rebuildAtlas = false;
 
 		if (rebuildAtlas) {
 			TexturePacker.Settings settings = new TexturePacker.Settings();
